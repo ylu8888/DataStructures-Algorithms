@@ -16,6 +16,8 @@
 class invertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return null;
+        
+        // Temp node that swaps left and right children, then just do DFS recursive calls on left and right subtreeS
 
         TreeNode temp = root.left;
         root.left = root.right;
