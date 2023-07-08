@@ -1,4 +1,4 @@
-class containsDuplicate{
+class ContainsDuplicate{
     public boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         
