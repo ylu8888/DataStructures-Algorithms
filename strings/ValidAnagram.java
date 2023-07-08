@@ -1,4 +1,4 @@
-class validAnagram {
+class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         char [] chars = s.toCharArray();
         char [] chars2 = t.toCharArray();
