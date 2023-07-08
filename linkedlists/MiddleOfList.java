@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class middleOfList {
+class MiddleOfList {
     public ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
