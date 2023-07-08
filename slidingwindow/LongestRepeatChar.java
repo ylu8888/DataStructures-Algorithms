@@ -1,4 +1,4 @@
-class longestRepeatChar{
+class LongestRepeatChar{
     public int characterReplacement(String s, int k) {
         HashSet<Character> map = new HashSet<>();
         int max = 1;
