@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class invertBinaryTree {
+class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return null;
         
