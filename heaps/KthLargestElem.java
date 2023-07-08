@@ -1,4 +1,4 @@
-class kthLargestElem{
+class KthLargestElem{
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> heap = new PriorityQueue<> (Collections.reverseOrder());
 
