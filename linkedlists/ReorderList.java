@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class reorderList {
+class ReorderList {
     public void reorderList(ListNode head) {
         List<ListNode> arr = new ArrayList<>();
         ListNode slow = head;
