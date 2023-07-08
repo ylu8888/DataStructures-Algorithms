@@ -1,4 +1,4 @@
-class topFrequent {
+class TopFrequent {
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         PriorityQueue<Integer> heap = new PriorityQueue<>(Comparator.reverseOrder());
