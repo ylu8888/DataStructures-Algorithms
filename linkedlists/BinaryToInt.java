@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class binaryToInt {
+class BinaryToInt {
     public int getDecimalValue(ListNode head) {
         ListNode current = head;
         int count = 0; 
