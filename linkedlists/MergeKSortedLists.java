@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class mergeKsortedLists{
+class MergeKSortedLists{
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<Integer> heap = new PriorityQueue<>();
         ListNode current = new ListNode();
