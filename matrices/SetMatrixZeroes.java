@@ -1,4 +1,4 @@
-class setMatrixZeroes {
+class SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
         HashSet<Integer> xset = new HashSet<>();
         HashSet<Integer> yset = new HashSet<>();
