@@ -1,6 +1,6 @@
 // O(n^2) Nested for loops (inner loop uses int j = i + 1), Optimal: O(n) check hashmap that counts indices of each number in array if it contains the complement = nums[i] - target;
 
-class twoSum{
+class TwoSum{
     public int[] twoSum(int[] nums, int target) {
         HashMap <Integer, Integer> map = new HashMap<>();
        
