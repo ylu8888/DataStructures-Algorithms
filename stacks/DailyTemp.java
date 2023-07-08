@@ -1,4 +1,4 @@
-class dailyTemp{
+class DailyTemp{
     public int[] dailyTemperatures(int[] temperatures) {
         Stack<Integer> stack = new Stack<>();
         int [] arr = new int [temperatures.length];
