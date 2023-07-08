@@ -1,4 +1,4 @@
-class groupAnagrams {
+class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> list = new ArrayList<>();
         List<String> arr = new ArrayList<>();
