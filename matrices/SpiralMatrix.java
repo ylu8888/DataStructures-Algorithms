@@ -1,4 +1,4 @@
-class spiralMatrix{
+class SpiralMatrix{
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> arr = new ArrayList<>();
         int rows = matrix.length;
