@@ -1,5 +1,5 @@
 //Best Time to Buy and Sell Stock
-class BestStock {
+class BestTimeForStock {
     public int maxProfit(int[] prices) {
         int left = 0;
         int right = 0;
