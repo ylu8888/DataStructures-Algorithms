@@ -1,4 +1,4 @@
-class longestSubstring {
+class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> set = new HashSet<>();
         int start = 0;
