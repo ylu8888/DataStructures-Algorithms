@@ -1,6 +1,6 @@
 //Sort Characters By Frequency
 
-class sortCharByFreq {
+class SortCharByFreq {
     public String frequencySort(String s) {
         PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
         HashMap<Character, Integer> map = new HashMap <>();
