@@ -1,4 +1,4 @@
-class validSudoku {
+class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character> set;
         HashSet<Character> rowSet;
