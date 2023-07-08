@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class removeNthNode {
+class RemoveNthNode {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         List<Integer> arr = new ArrayList<>();
 
