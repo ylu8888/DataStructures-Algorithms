@@ -46,7 +46,7 @@ class ValidSudoku {
                     return false;
                 }
                 else{
-                    if(board[i][j] != '.'){
+                    if(board[i][j] != '.'){ //every spot on grid has a . except numbers
                         set.add(board[i][j]);
                     }
                 }
