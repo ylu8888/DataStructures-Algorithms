@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class linkListCycle {
+public class LinkListCycle {
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set = new HashSet<>();
         ListNode current = head;
