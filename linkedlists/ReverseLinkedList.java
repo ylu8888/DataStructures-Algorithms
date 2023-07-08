@@ -10,7 +10,7 @@
  */
 
 
-class reverseLinkedList {
+class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode current = head;
         ListNode prev = null;
