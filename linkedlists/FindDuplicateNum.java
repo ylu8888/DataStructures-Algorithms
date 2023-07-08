@@ -1,4 +1,4 @@
-class findDuplicateNum {
+class FindDuplicateNum {
     public int findDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 
